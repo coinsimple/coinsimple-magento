@@ -11,7 +11,7 @@ The CoinSimple Magento plugin allows e-commerce stores to accept bitcoin through
 
 *Do not attempt to install this plugin through the "Magento Connect Manager". Use the following instructions, instead.*
 
-1. [Download a zip file of the plugin](https://github.com/coinsimple/coinsimple-magento/archive/master.zip). Extract the zip file.
+1. [Download a zip file of the plugin](https://github.com/coinsimple/coinsimple-magento/archive/v1.zip). Extract the zip file.
 2. Copy the contents of the zip file under in the root of your Magento installation.
 
 At this point the plugin is installed and activated but it still needs to be enabled and configured.
