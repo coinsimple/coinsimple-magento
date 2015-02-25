@@ -9,10 +9,29 @@ The CoinSimple Magento plugin allows e-commerce stores to accept bitcoin through
 
 ## Installation
 
-*Do not attempt to install this plugin through the "Magento Connect Manager". Use the following instructions, instead.*
+There are two ways to install this plugin. (1) Through the "Magento Connect Manager" or (2) by uploading a file directly to your Magento server.
 
-1. [Download a zip file of the plugin](https://github.com/coinsimple/coinsimple-magento/archive/v1.zip). Extract the zip file.
-2. Copy the contents of the zip file under in the root of your Magento installation.
+### Option 1: Install using the "Magento Connect Manager"
+
+1. [Download the specially formatted .tgz file of the plugin](https://github.com/coinsimple/coinsimple-magento/releases/download/v1/CoinSimple-1.0.0.tgz) to a location of your choice.
+
+2. Log in to your Magento site as administrator and click on "Settings" and then "Magento Connect" and "Magento Connect Manager".
+
+	![Select "Settings" and then "Magento Connect" and "Magento Connect Manager"](/images/magento/magento-plugin-magento_connect.png)
+
+3. Login again, using the administrator user name and password.
+4. If not already selected, select the "Extensions" tab and go to the "Direct package upload" section of the page
+
+	!["Direct package upload" section of the page](/images/magento/magento-plugin-magento_connect-upload.png)
+
+5. Choose the file that you downloaded in the first step, and click "Upload". Magento Connect will import the file and show you the following screen.
+
+	![Successful installation of the CoinSimple plugin for Magento](/images/magento/magento-plugin-magento_connect-upload_confirmation.png)
+
+### Option 2: Install by uploading a file to your Magento server.
+
+1. [Download the zip file of the plugin](https://github.com/coinsimple/coinsimple-magento/archive/v1.zip). Extract the zip file.
+2. Copy the contents of the zip file under in the root of your Magento installation, usually ``htdocs``
 
 At this point the plugin is installed and activated but it still needs to be enabled and configured.
 
